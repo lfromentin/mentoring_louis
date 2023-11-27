@@ -4,9 +4,19 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        {"name":"Python: FastAPI","type":"python","request":"launch","module":"uvicorn","args":["fastAPI:app","--reload"],"console": "internalConsole","jinja":true,"justMyCode":true},
-
-
+        {
+            "name": "Python: FastAPI",
+            "type": "python",
+            "request": "launch",
+            "module": "uvicorn",
+            "args": [
+                "fastAPI:app",
+                "--reload"
+            ],
+            "console": "internalConsole",
+            "jinja": true,
+            "justMyCode": true
+        },
         {
             "name": "Python: Current File",
             "type": "python",
